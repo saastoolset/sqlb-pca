@@ -13,8 +13,8 @@ https://ealizadeh.com/blog/guide-to-python-env-pkg-dependency-using-conda-poetry
 ### 
 
 ```
-$ conda env create -f environment.yaml
-$ conda activate dbt
+$ conda env create -n sqlb-pca
+$ conda activate sqlb-pca
 
 ```
 
