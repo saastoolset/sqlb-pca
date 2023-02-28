@@ -31,23 +31,25 @@ $HOME/.local/bin for Unix
 ```
 
 
-poetry initial
+### poetry initial
 ```
 $ poetry init
-
+```
 
 ## III. PCA installation
 
 ### pca-scaffold
-## Step 1: Install Cookiecutter
+#### Step 1: Install Cookiecutter
 
 Install cookiecutter:
 
 ``` bash
-pip install cookiecutter
+$ conda deactivate sqlb-pca
+(base) $ pip install cookiecutter
+$ conda activate sqlb-pca
 ```
 
-## Step 2: Generate Your Package
+#### Step 2: Generate Your Package
 
 Now it's time to generate your Python package.
 
@@ -58,7 +60,7 @@ cookiecutter https://github.com/pcah/pca-scaffold.git
 ```
 
 Finally, a new folder will be created under current folder, the name is the answer you
-provided to `project_slug`.
+provided to `sqlb-pca`.
 
 Go to this generated folder, the project layout should look like:
 
